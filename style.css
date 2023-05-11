@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.body-contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+header {
+    background: black;
+    padding: 10px;
+    margin: 10px;
+}
+
+.cabecera-contenedor{
+    display: flex;
+    background: #2D4059;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.cabecera-item1, .cabecera-item3{
+    background: #EA5455;
+    flex-basis: 20%;
+    padding: 5px;
+    margin: 10px;
+}
+.cabecera-item2{
+    background: #EA5455;
+    flex-basis: 60%;
+    padding: 5px;
+    margin:  10px;
+}
+
+.titulo{
+    background: #F07B3F;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.titulo-item1 {
+    background: #FED460;
+    margin: 10px;
+    padding: 5px;
+    flex-basis: 100%;
+}
+
+
+main{
+    background: black;
+    margin: 20px 10px;
+    padding: 10px;
+    display: flex;
+}
+
+.cuerpo-contenedor{
+    background: #4E4E6A;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    flex-basis: 66%;
+    margin: 10px;
+    padding: 10px;
+    
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    
+}
+
+.cuerpo-item1, .cuerpo-item2, .cuerpo-item3, .cuerpo-item4{
+  background-color: #1F6CB0;
+  margin: 10px;
+  padding: 5px; 
+  flex-basis: 50%;
+}
+
+.cuerpo-item5{
+    background-color: #70A3C4;
+    margin: 10px;
+    padding: 5px;
+    flex-basis: 100%;
+}
+
+.lateral-contenedor{
+    background: #F73F52;
+    flex-basis: 33%;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+}
+
+.lateral-item1,.lateral-item2{
+    background: #FEEA85;
+    margin: 10px;
+    padding: 5px;
+    flex-grow: 0 1;
+}
+
+.lateral-item2{
+    background: #FEEA85;
+    margin: 0px 10px 10px 10px;
+    padding: 5px;
+    flex-grow: 0 1;
+}
+
+footer{
+    background: black;
+    margin: 10px;
+    padding: 10px;
+}
+
+.footer-container {
+    background: #E6AF2E;
+    display: flex;
+    margin: 10px;
+    padding: 10px;    
+}
+
+
