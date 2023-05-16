@@ -133,4 +133,21 @@ footer{
     padding: 10px;    
 }
 
+@media only screen and (max-width: 768px) {
+
+    main {
+        display: flex;
+        flex-direction: column;
+        background: #FEFF03;
+    }
+    .cuerpo-contenedor{
+        flex-basis: 100%; 
+    }
+
+    .lateral-contenedor{
+        flex-basis: 100%;
+    }
+  }
+  
+
 
